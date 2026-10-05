@@ -1,0 +1,14 @@
+Basic Freestyle project 
+
+steps to create using execute shell :
+		
+                   1. Click on NewItem
+		   2. Select Free style
+                   3. Click on Ok , it will automatically redirect to configure   
+		   4. Under General , write the project description                        
+		   5. select Source Code Management as None		
+		   6. Select Execute shell under Build steps
+		   7. Write the Linux commands
+                   8. Click on either save or apply, it automatically redirect to Build area
+		   9. Click on Build Now
+                   10. see the output in (#1 v click) console output, once the build got success.	

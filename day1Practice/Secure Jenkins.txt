@@ -1,0 +1,10 @@
+Secure Jenkins:
+	      1. Go to Manage Jenkins 
+	      2. Select security
+	      3. Select Jenkins own user database under Security Realm
+	      4. Select Matrix-based Security under Authorization
+	      5. click on Add User when you are adding individual user
+		6. Click on Add group when you are adding permissions to group
+Here we can define what users can do
+ Anonymous Users should not be able do anything
+Authenticated users are just allowed to read access which will provide to the whole job.
