@@ -1,0 +1,11 @@
+Issue : During freestyle project built ,facing "waiting for the next available executor" error.
+
+Fix   : Go to Manage Jenkins ,select Nodes , see whether the built went offline ,
+	 if yes, then select configure monitors, reduce 	
+	free space threshold to 500MiB under Free Disk space and Free Temp space.
+
+Reason: Jenkins monitors each attached node for various metrics 
+         like free disk space, free temp space, free swap, clock time/sync, response time 
+         and others provided by plugins. 
+         Some of these monitors are able to mark nodes temporarily offline,
+         when the values go outside the configured thresholds.

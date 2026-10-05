@@ -1,0 +1,6 @@
+Steps to Create New User
+	1. Go to Manage Jenkins
+	2. select Users
+	3. click on create User
+	4. Add new username , password and email
+	5. Once you create the user, Provide the permissions using security to Secure the Jenkins 
